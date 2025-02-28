@@ -1,0 +1,11 @@
+import random
+import os
+
+number = random.randint(1, 10)
+guess = input("guess a number between 1 and 10: ")
+guess = int(guess)
+
+if guess == 5:
+    print("you won")
+else:
+    print("go fuck yourself you asshole")
